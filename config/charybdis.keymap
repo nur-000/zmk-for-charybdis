@@ -13,20 +13,6 @@
 / {
     combos { compatible = "zmk,combos"; };
 
-    /* Adjust trackball scrolling speed for Layer 4 (Scroll Layer) */
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&vtrackball>; // Matches default Charybdis trackball node
-        
-        scroller {
-            layers = <4>; // Targets your "Scroll" layer (index 4)
-            input-processors = <
-                &zip_xy_to_scroll_mapper
-                &zip_scroll_scaler 1 4 /* Multiplier: 1, Divisor: 4 (25% speed) */
-            >;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
