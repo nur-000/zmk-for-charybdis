@@ -38,7 +38,7 @@ layers:
   - ;
   - ''''
   - Ctrl
-  - {t: Z, h: Mouse}
+  - {t: Z, h: Scroll}
   - X
   - C
   - V
@@ -228,63 +228,6 @@ layers:
   - ''
   - ''
   - ''
-  Scroll:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - ''
-  - BT CLR
-  - BT CLR
-  - ''
-  - {t: BT, h: '2'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '0'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - ''
-  - '&bootloader'
-  - ''
-  - '&mkp RCLK'
-  - {type: held}
-  - '&mkp LCLK'
-  - ''
-  - ''
-  - '&mkp LCLK'
-  - ''
-  - '&mkp RCLK'
-  - {type: held}
-  - '&bootloader'
-  - ''
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - '&mkp RCLK'
-  - '&mkp LCLK'
-  - ''
-  - ''
-  - ''
   Mouse:
   - ''
   - ''
@@ -323,7 +266,7 @@ layers:
   - ''
   - ''
   - '&bootloader'
-  - {type: held}
+  - ''
   - '&mkp RCLK'
   - Scroll
   - '&mkp LCLK'
@@ -334,7 +277,64 @@ layers:
   - '&mkp RCLK'
   - ''
   - '&bootloader'
-  - MouseSnipe
+  - ''
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&mkp RCLK'
+  - '&mkp LCLK'
+  - ''
+  - ''
+  - ''
+  Scroll:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - ''
+  - BT CLR
+  - BT CLR
+  - ''
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - {type: held}
+  - '&mkp RCLK'
+  - ''
+  - '&mkp LCLK'
+  - ''
+  - ''
+  - '&mkp LCLK'
+  - ''
+  - '&mkp RCLK'
+  - ''
+  - '&bootloader'
+  - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp RCLK'
