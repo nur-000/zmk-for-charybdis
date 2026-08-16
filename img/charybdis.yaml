@@ -38,7 +38,7 @@ layers:
   - ;
   - ''''
   - Ctrl
-  - {t: Z, h: Scroll}
+  - {t: Z, h: Mouse}
   - X
   - C
   - V
@@ -266,7 +266,7 @@ layers:
   - ''
   - ''
   - '&bootloader'
-  - ''
+  - {type: held}
   - '&mkp RCLK'
   - Scroll
   - '&mkp LCLK'
@@ -323,16 +323,16 @@ layers:
   - ''
   - ''
   - '&bootloader'
+  - ''
+  - '&mkp RCLK'
   - {type: held}
-  - '&mkp RCLK'
-  - ''
   - '&mkp LCLK'
   - ''
   - ''
   - '&mkp LCLK'
   - ''
   - '&mkp RCLK'
-  - ''
+  - {type: held}
   - '&bootloader'
   - ''
   - '&mkp LCLK'
