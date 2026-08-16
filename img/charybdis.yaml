@@ -47,7 +47,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: Mouse}
+  - {t: /, h: MouseSnipe}
   - ESC
   - LEFT WIN
   - Space
@@ -171,6 +171,120 @@ layers:
   - ''
   - ''
   - ''
+  MouseSnipe:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - ''
+  - BT CLR
+  - BT CLR
+  - ''
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - ''
+  - '&mkp RCLK'
+  - Scroll
+  - '&mkp LCLK'
+  - ''
+  - '&studio_unlock'
+  - '&mkp LCLK'
+  - Scroll
+  - '&mkp RCLK'
+  - {type: held}
+  - '&bootloader'
+  - ''
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&mkp RCLK'
+  - '&mkp LCLK'
+  - ''
+  - ''
+  - ''
+  Scroll:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - ''
+  - BT CLR
+  - BT CLR
+  - ''
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - ''
+  - '&mkp RCLK'
+  - {type: held}
+  - '&mkp LCLK'
+  - ''
+  - ''
+  - '&mkp LCLK'
+  - ''
+  - '&mkp RCLK'
+  - {type: held}
+  - '&bootloader'
+  - ''
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&mkp RCLK'
+  - '&mkp LCLK'
+  - ''
+  - ''
+  - ''
   Mouse:
   - ''
   - ''
@@ -220,64 +334,7 @@ layers:
   - '&mkp RCLK'
   - ''
   - '&bootloader'
-  - ''
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - '&mkp RCLK'
-  - '&mkp LCLK'
-  - ''
-  - ''
-  - ''
-  Scroll:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - ''
-  - BT CLR
-  - BT CLR
-  - ''
-  - {t: BT, h: '2'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '0'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - ''
-  - '&bootloader'
-  - {type: held}
-  - '&mkp RCLK'
-  - {type: held}
-  - '&mkp LCLK'
-  - ''
-  - ''
-  - '&mkp LCLK'
-  - ''
-  - '&mkp RCLK'
-  - ''
-  - '&bootloader'
-  - ''
+  - MouseSnipe
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp RCLK'
