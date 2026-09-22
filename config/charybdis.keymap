@@ -30,9 +30,9 @@
         Lower {
             bindings = <
 &kp TILDE  &kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp DOLLAR    &kp PERCENT    &kp CARET      &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&kp GRAVE  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp LBKT       &kp RBKT       &kp F1         &kp F2        &kp F3                &kp F4                 &kp BACKSPACE
-&kp LSHFT  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &none          &kp BACKSLASH  &kp F5         &kp F6        &kp F7                &kp F8                 &kp PAGE_UP
-&kp LCTRL  &kp NUMBER_9     &kp NUMBER_0  &kp MINUS     &kp EQUAL     &none          &none          &kp F9         &kp F10       &kp F11               &kp F12                &kp PAGE_DOWN
+&kp GRAVE  &kp none         &kp none      &kp none      &kp none      &kp LBKT       &kp RBKT       &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp MINUS              &kp BACKSPACE
+&kp LSHFT  &kp none         &kp none      &kp UP        &kp none      &none          &kp BACKSLASH  &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6          &kp LS(EQUAL)          &kp PAGE_UP
+&kp LCTRL  &kp none         &kp LEFT      &kp DOWN      &kp RIGHT     &none          &none          &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3          &kp ENTER              &kp PAGE_DOWN
                                           &kp LEFT_WIN  &kp SPACE     &trans         &kp ENTER      &kp RIGHT_ALT
                                                         &none         &none          &none
             >;
@@ -51,10 +51,10 @@
 
         MouseSnipe {
             bindings = <
-&none        &none         &none         &none         &none      &none         &none           &none      &none         &none         &none         &none
+&bootloader  &none         &none         &none         &none      &none         &none           &none      &none         &none         &none         &bootloader
 &none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR      &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
-&none        &none         &none         &mkp MCLK     &none      &none         &none           &none      &mkp MCLK     &none         &none         &none
-&bootloader  &none         &mkp RCLK     &mo 5         &mkp LCLK  &none         &studio_unlock  &mkp LCLK  &mo 5         &mkp RCLK     &none         &bootloader
+&LSHFT       &none         &none         &mkp MCLK     &none      &none         &none           &none      &mkp MCLK     &none         &none         &LSHFT
+&LCTRL       &none         &mkp RCLK     &mo 5         &mkp LCLK  &none         &studio_unlock  &mkp LCLK  &mo 5         &mkp RCLK     &none         &LCTRL
                                          &none         &mkp LCLK  &mkp RCLK     &mkp RCLK       &mkp LCLK
                                                        &none      &none         &none
             >;
@@ -62,10 +62,10 @@
 
         Mouse {
             bindings = <
-&none        &none         &none         &none         &none      &none         &none           &none      &none         &none         &none         &none
+&bootloader  &none         &none         &none         &none      &none         &none           &none      &none         &none         &none         &bootloader
 &none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR      &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
-&none        &none         &none         &mkp MCLK     &none      &none         &none           &none      &mkp MCLK     &none         &none         &none
-&bootloader  &none         &mkp RCLK     &mo 5         &mkp LCLK  &none         &studio_unlock  &mkp LCLK  &mo 5         &mkp RCLK     &none         &bootloader
+&LSHFT       &none         &none         &mkp MCLK     &none      &none         &none           &none      &mkp MCLK     &none         &none         &LSHFT
+&LCTRL       &none         &mkp RCLK     &mo 5         &mkp LCLK  &none         &studio_unlock  &mkp LCLK  &mo 5         &mkp RCLK     &none         &LCTRL
                                          &none         &mkp LCLK  &mkp RCLK     &mkp RCLK       &mkp LCLK
                                                        &none      &none         &none
             >;
@@ -73,11 +73,11 @@
 
         Scroll {
             bindings = <
-&none        &none         &none         &none         &none      &none         &none       &none      &none         &none         &none         &none
-&none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR  &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
-&none        &none         &none         &mkp MCLK     &none      &none         &none       &none      &mkp MCLK     &none         &none         &none
-&bootloader  &none         &mkp RCLK     &none         &mkp LCLK  &none         &none       &mkp LCLK  &none         &mkp RCLK     &none         &bootloader
-                                         &none         &mkp LCLK  &mkp RCLK     &mkp RCLK   &mkp LCLK
+&bootloader  &none         &none         &none         &none      &none         &none           &none      &none         &none         &none         &bootloader
+&none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR      &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
+&LSHFT       &none         &none         &mkp MCLK     &none      &none         &none           &none      &mkp MCLK     &none         &none         &LSHFT
+&LCTRL       &none         &mkp RCLK     &none         &mkp LCLK  &none         &none           &mkp LCLK  &none         &mkp RCLK     &none         &LCTRL
+                                         &none         &mkp LCLK  &mkp RCLK     &mkp RCLK       &mkp LCLK
                                                        &none      &none         &none
             >;
         };
