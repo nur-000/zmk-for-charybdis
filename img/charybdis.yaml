@@ -71,40 +71,40 @@ layers:
   - )
   - '|'
   - '`'
+  - none
+  - none
+  - none
+  - none
+  - '['
+  - ']'
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - BSPC
+  - LSHFT
+  - none
+  - none
+  - ↑
+  - none
+  - ''
+  - \
+  - '4'
+  - '5'
+  - '6'
+  - Sft+=
+  - PgUp
+  - Ctrl
+  - none
+  - ←
+  - ↓
+  - →
+  - ''
+  - ''
   - '1'
   - '2'
   - '3'
-  - '4'
-  - '['
-  - ']'
-  - F1
-  - F2
-  - F3
-  - F4
-  - BSPC
-  - LSHFT
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - ''
-  - \
-  - F5
-  - F6
-  - F7
-  - F8
-  - PgUp
-  - Ctrl
-  - '9'
-  - '0'
-  - '-'
-  - '='
-  - ''
-  - ''
-  - F9
-  - F10
-  - F11
-  - F12
+  - Enter
   - PgDn
   - LEFT WIN
   - Space
@@ -172,6 +172,7 @@ layers:
   - ''
   - ''
   MouseSnipe:
+  - '&bootloader'
   - ''
   - ''
   - ''
@@ -179,36 +180,35 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - ''
-  - BT CLR
-  - BT CLR
-  - ''
-  - {t: BT, h: '2'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '0'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
   - ''
   - ''
   - ''
   - '&bootloader'
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - ''
+  - BT CLR
+  - BT CLR
+  - ''
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - ''
+  - '&LSHFT'
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - '&LSHFT'
+  - '&LCTRL'
   - ''
   - '&mkp RCLK'
   - Scroll
@@ -219,7 +219,7 @@ layers:
   - Scroll
   - '&mkp RCLK'
   - {type: held}
-  - '&bootloader'
+  - '&LCTRL'
   - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
@@ -229,6 +229,7 @@ layers:
   - ''
   - ''
   Mouse:
+  - '&bootloader'
   - ''
   - ''
   - ''
@@ -236,36 +237,35 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - ''
-  - BT CLR
-  - BT CLR
-  - ''
-  - {t: BT, h: '2'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '0'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
   - ''
   - ''
   - ''
   - '&bootloader'
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - ''
+  - BT CLR
+  - BT CLR
+  - ''
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - ''
+  - '&LSHFT'
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - '&LSHFT'
+  - '&LCTRL'
   - {type: held}
   - '&mkp RCLK'
   - Scroll
@@ -276,7 +276,7 @@ layers:
   - Scroll
   - '&mkp RCLK'
   - ''
-  - '&bootloader'
+  - '&LCTRL'
   - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
@@ -286,6 +286,7 @@ layers:
   - ''
   - ''
   Scroll:
+  - '&bootloader'
   - ''
   - ''
   - ''
@@ -296,8 +297,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&bootloader'
   - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -310,19 +310,19 @@ layers:
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
   - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
-  - ''
+  - '&LSHFT'
   - ''
   - ''
   - '&mkp MCLK'
   - ''
   - ''
   - ''
-  - '&bootloader'
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - '&LSHFT'
+  - '&LCTRL'
   - ''
   - '&mkp RCLK'
   - {type: held}
@@ -333,7 +333,7 @@ layers:
   - ''
   - '&mkp RCLK'
   - {type: held}
-  - '&bootloader'
+  - '&LCTRL'
   - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
