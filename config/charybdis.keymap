@@ -30,8 +30,8 @@
         Lower {
             bindings = <
 &kp TILDE  &kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp DOLLAR    &kp PERCENT    &kp CARET      &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&kp GRAVE  &none            &knone        &none         &none         &kp LBKT       &kp RBKT       &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp MINUS              &kp BACKSPACE
-&kp LSHFT  &none            &none         &kp UP        &none         &none          &kp BACKSLASH  &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6          &kp LS(EQUAL)          &kp PAGE_UP
+&kp GRAVE  &none            &none        &none         &none         &kp LBKT       &kp RBKT       &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp MINUS              &kp BACKSPACE
+&kp LSHFT  &none            &none         &kp UP        &none         &none          &kp BACKSLASH  &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6          &kp PLUS               &kp PAGE_UP
 &kp LCTRL  &none            &kp LEFT      &kp DOWN      &kp RIGHT     &none          &none          &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3          &kp ENTER              &kp PAGE_DOWN
                                           &kp LEFT_WIN  &kp SPACE     &trans         &kp ENTER      &kp RIGHT_ALT
                                                         &none         &none          &none
