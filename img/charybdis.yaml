@@ -71,10 +71,10 @@ layers:
   - )
   - '|'
   - '`'
-  - none
-  - none
-  - none
-  - none
+  - ''
+  - '&knone'
+  - ''
+  - ''
   - '['
   - ']'
   - '7'
@@ -83,10 +83,10 @@ layers:
   - '-'
   - BSPC
   - LSHFT
-  - none
-  - none
+  - ''
+  - ''
   - ↑
-  - none
+  - ''
   - ''
   - \
   - '4'
@@ -95,7 +95,7 @@ layers:
   - Sft+=
   - PgUp
   - Ctrl
-  - none
+  - ''
   - ←
   - ↓
   - →
@@ -196,7 +196,7 @@ layers:
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
   - ''
-  - '&LSHFT'
+  - LSHFT
   - ''
   - ''
   - '&mkp MCLK'
@@ -207,8 +207,8 @@ layers:
   - '&mkp MCLK'
   - ''
   - ''
-  - '&LSHFT'
-  - '&LCTRL'
+  - LSHFT
+  - Ctrl
   - ''
   - '&mkp RCLK'
   - Scroll
@@ -219,7 +219,7 @@ layers:
   - Scroll
   - '&mkp RCLK'
   - {type: held}
-  - '&LCTRL'
+  - Ctrl
   - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
@@ -253,7 +253,7 @@ layers:
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
   - ''
-  - '&LSHFT'
+  - LSHFT
   - ''
   - ''
   - '&mkp MCLK'
@@ -264,8 +264,8 @@ layers:
   - '&mkp MCLK'
   - ''
   - ''
-  - '&LSHFT'
-  - '&LCTRL'
+  - LSHFT
+  - Ctrl
   - {type: held}
   - '&mkp RCLK'
   - Scroll
@@ -276,7 +276,7 @@ layers:
   - Scroll
   - '&mkp RCLK'
   - ''
-  - '&LCTRL'
+  - Ctrl
   - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
@@ -310,7 +310,7 @@ layers:
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
   - ''
-  - '&LSHFT'
+  - LSHFT
   - ''
   - ''
   - '&mkp MCLK'
@@ -321,19 +321,19 @@ layers:
   - '&mkp MCLK'
   - ''
   - ''
-  - '&LSHFT'
-  - '&LCTRL'
+  - LSHFT
+  - Ctrl
   - ''
   - '&mkp RCLK'
-  - {type: held}
+  - {t: Scroll, type: held}
   - '&mkp LCLK'
   - ''
   - ''
   - '&mkp LCLK'
-  - ''
+  - Scroll
   - '&mkp RCLK'
   - {type: held}
-  - '&LCTRL'
+  - Ctrl
   - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
