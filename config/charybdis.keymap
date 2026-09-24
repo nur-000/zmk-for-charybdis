@@ -52,7 +52,7 @@
         MouseSnipe {
             bindings = <
 &bootloader  &none         &none         &none         &none      &none         &none           &none      &none         &none         &none         &bootloader
-&none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR      &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
+&kp CAPSLOCK &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR      &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &kp CAPSLOCK
 &kp LSHFT    &none         &none         &mkp MCLK     &none      &none         &none           &none      &mkp MCLK     &none         &none         &kp LSHFT
 &kp LCTRL    &none         &mkp RCLK     &mo 5         &mkp LCLK  &none         &studio_unlock  &mkp LCLK  &mo 5         &mkp RCLK     &none         &kp LCTRL
                                          &none         &mkp LCLK  &mkp RCLK     &mkp RCLK       &mkp LCLK
@@ -63,7 +63,7 @@
         Mouse {
             bindings = <
 &bootloader  &none         &none         &none         &none      &none         &none           &none      &none         &none         &none         &bootloader
-&none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR      &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
+&kp CAPSLOCK &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR      &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &kp CAPSLOCK
 &kp LSHFT    &none         &none         &mkp MCLK     &none      &none         &none           &none      &mkp MCLK     &none         &none         &kp LSHFT
 &kp LCTRL    &none         &mkp RCLK     &mo 5         &mkp LCLK  &none         &studio_unlock  &mkp LCLK  &mo 5         &mkp RCLK     &none         &kp LCTRL
                                          &none         &mkp LCLK  &mkp RCLK     &mkp RCLK       &mkp LCLK
@@ -74,7 +74,7 @@
         Scroll {
             bindings = <
 &bootloader  &none         &none         &none         &none      &none         &none           &none      &none         &none         &none         &bootloader
-&none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR      &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
+&kp CAPSLOCK &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR      &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &kp CAPSLOCK
 &kp LSHFT    &none         &none         &mkp MCLK     &none      &none         &none           &none      &mkp MCLK     &none         &none         &kp LSHFT
 &kp LCTRL    &none         &mkp RCLK     &mo 5         &mkp LCLK  &none         &none           &mkp LCLK  &mo 5         &mkp RCLK     &none         &kp LCTRL
                                          &none         &mkp LCLK  &mkp RCLK     &mkp RCLK       &mkp LCLK
