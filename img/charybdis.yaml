@@ -184,7 +184,7 @@ layers:
   - ''
   - ''
   - '&bootloader'
-  - ''
+  - CAPSLOCK
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -195,7 +195,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
-  - ''
+  - CAPSLOCK
   - LSHFT
   - ''
   - ''
@@ -241,7 +241,7 @@ layers:
   - ''
   - ''
   - '&bootloader'
-  - ''
+  - CAPSLOCK
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -252,7 +252,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
-  - ''
+  - CAPSLOCK
   - LSHFT
   - ''
   - ''
@@ -298,7 +298,7 @@ layers:
   - ''
   - ''
   - '&bootloader'
-  - ''
+  - CAPSLOCK
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -309,7 +309,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
-  - ''
+  - CAPSLOCK
   - LSHFT
   - ''
   - ''
